@@ -11,7 +11,9 @@
         android:focusableInTouchMode="true"
         android:hint="@string/enter_value"
         android:inputType="text"
-        android:visibility="invisible">
+        android:visibility="invisible"
+        android:textColor="@color/white"
+        android:background="@color/black">
 
         <requestFocus />
     </EditText>
@@ -23,10 +25,14 @@
         android:layout_gravity="center"
         android:onClick="restartUserProgram"
         android:text="@string/restart"
-        android:visibility="gone" />
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:background="@color/arelive" />
 
     <TextView
         android:id="@+id/consoleWrite"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:textColor="@color/green"
+        android:background="@color/black" />
 </LinearLayout>
